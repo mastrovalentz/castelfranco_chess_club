@@ -1,22 +1,25 @@
+const pageTitleBase = 'Scacchi Castelfranco'
+
+// TODO improve with base route class and wrapper
 export const ROUTES = {
   404: {
     template: 'src/pages/404.html',
-    title: '',
-    description: ''
+    title: `404 | ${pageTitleBase}`,
+    description: 'Page not found.'
   },
   '/': {
     template: 'src/pages/home.html',
-    title: '',
-    description: ''
+    title: `Home | ${pageTitleBase}`,
+    description: 'Club di Scacchi Castelfranco Veneto: Home Page'
   },
   '/about': {
     template: 'src/pages/about.html',
-    title: '',
-    description: ''
+    title: `Chi siamo | ${pageTitleBase}`,
+    description: 'Club di Scacchi Castelfranco Veneto: Chi siamo'
   },
   '/contacts': {
     template: 'src/pages/contacts.html',
-    title: '',
-    description: ''
+    title: `Contattaci | ${pageTitleBase}`,
+    description: 'Club di Scacchi Castelfranco Veneto: Contattaci'
   }
 }

@@ -28,6 +28,10 @@ const urlLocationHandler = async () => {
   document.getElementById('page-content').innerHTML = await fetch(
     route.template
   ).then((template) => template.text())
+  document.title = route.title
+  document
+    .querySelector('meta[name="description"]')
+    .setAttribute('content', route.description)
 }
 
 window.onpopstate = urlLocationHandler
