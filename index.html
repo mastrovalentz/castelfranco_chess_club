@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,9 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Club di Scacchi Castelfranco Veneto</title>
     <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/variables.css" />
+    <link rel="stylesheet" href="style/navigation.css" />
   </head>
   <body>
     <script type="javascript" src="/src/main.js"></script>
-    <link rel="import" href="src/index.html"  />
+    <nav class="navbar">
+      <div class="brand-title">Brand Name</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"> </span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Chi siamo</a></li>
+          <li><a href="#contacts">Contatti</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h2 id="home">HOME</h2>
+    <h2 id="about">Chi siamo</h2>
+    <h2 id="contacts">Contatti</h2>
+    <link rel="html" href="src/index.html" />
   </body>
 </html>
