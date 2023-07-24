@@ -1,1 +1,8 @@
 /* TODO */
+:root {
+
+    /* configuration variables for some component */
+    /* TODO is it possible to make i work at other angles???? */
+    --background-angle: 45deg;
+    --background-size: 8rem;
+}
