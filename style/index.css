@@ -2,24 +2,40 @@ body {
   /* TODO extract color and transparency variables */
   background-image: linear-gradient(
       var(--background-angle),
-      #ccc 25%,
+      #964d22 25%,
       transparent 25%
     ),
     linear-gradient(
       calc(var(--background-angle) - 90deg),
-      #ccc 25%,
+      #964d22 25%,
       transparent 25%
     ),
     linear-gradient(
       calc(var(--background-angle) + 0deg),
       transparent 75%,
-      #ccc 75%
+      #964d22 75%
     ),
     linear-gradient(
       calc(var(--background-angle) - 90deg),
       transparent 75%,
-      #ccc 75%
+      #964d22 75%
     );
   background-size: var(--background-size) var(--background-size);
   background-repeat: repeat;
+
+  /*background-image: repeating-linear-gradient(*/
+  /*        -55deg,*/
+  /*        #222,*/
+  /*        #222 10px,*/
+  /*        #333 10px,*/
+  /*        #333 20px*/
+  /*);*/
+/*background-image: repeating-linear-gradient(*/
+/*          55deg,*/
+/*          #222,*/
+/*          #222 10px,*/
+/*          #333 10px,*/
+/*          #333 20px*/
+/*  );*/
+
 }

@@ -21,5 +21,10 @@ export const ROUTES = {
     template: 'src/pages/contacts.html',
     title: `Contattaci | ${pageTitleBase}`,
     description: 'Club di Scacchi Castelfranco Veneto: Contattaci'
+  },
+  '/events': {
+    template: 'src/pages/events.html',
+    title: `Eventi | ${pageTitleBase}`,
+    description: 'Club di Scacchi Castelfranco Veneto: Eventi'
   }
 }
