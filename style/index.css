@@ -1,41 +1,9 @@
 body {
-  /* TODO extract color and transparency variables */
-  background-image: linear-gradient(
-      var(--background-angle),
-      #964d22 25%,
-      transparent 25%
-    ),
-    linear-gradient(
-      calc(var(--background-angle) - 90deg),
-      #964d22 25%,
-      transparent 25%
-    ),
-    linear-gradient(
-      calc(var(--background-angle) + 0deg),
-      transparent 75%,
-      #964d22 75%
-    ),
-    linear-gradient(
-      calc(var(--background-angle) - 90deg),
-      transparent 75%,
-      #964d22 75%
-    );
-  background-size: var(--background-size) var(--background-size);
-  background-repeat: repeat;
+  font-family: var(--font-family-primary);
 
-  /*background-image: repeating-linear-gradient(*/
-  /*        -55deg,*/
-  /*        #222,*/
-  /*        #222 10px,*/
-  /*        #333 10px,*/
-  /*        #333 20px*/
-  /*);*/
-/*background-image: repeating-linear-gradient(*/
-/*          55deg,*/
-/*          #222,*/
-/*          #222 10px,*/
-/*          #333 10px,*/
-/*          #333 20px*/
-/*  );*/
-
+  background:
+    repeating-conic-gradient(from 30deg,#0000 0 120deg,var(--bkg-color-bottom) 0 180deg)
+     calc(.5*var(--bkg-size)) calc(.5*var(--bkg-size)*0.577),
+    repeating-conic-gradient(from 30deg,var(--bkg-color-top) 0 60deg,var(--bkg-color-side) 0 120deg,var(--bkg-color-bottom) 0 180deg);
+  background-size: var(--bkg-size) calc(var(--bkg-size)*0.577);
 }
