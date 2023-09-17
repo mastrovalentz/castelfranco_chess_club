@@ -1,6 +1,10 @@
 /* TODO */
 :root {
+  --color-primary-light: #c6b8ac;
   --color-primary-default: #ab9a8c;
+  --color-primary-mid: #957c67;
+  --color-primary-dark: #7d6450;
+  --color-primary-darkest: #68513d;
   --color-secondary-default: #d9dee3;
   --color-accent: #8b7665;
 
@@ -11,7 +15,6 @@
   /* TODO handle dark mode */
 
   .dark-mode {
-    --color-primary-default: #ab9a8c;
     --color-secondary-default: #0f1216;
     --color-accent: #cec5bc;
 
@@ -46,8 +49,13 @@
   --spacing-xlarge: 2rem;
   --spacing-xxlarge: 3rem;
 
+  --border-radius-default: var(--spacing-default);
+  --border-radius-small: var(--spacing-small);
+  --border-radius-medium: var(--spacing-medium);
+  --border-radius-round: 50%;
+
   --bkg-size: 12rem;
-  --bkg-color-top: red;
-  --bkg-color-side: #4e4f51;
-  --bkg-color-bottom: #3c3c3c;
+  --bkg-color-top: var(--color-primary-dark);
+  --bkg-color-side: var(--color-primary-default);
+  --bkg-color-bottom: var(--color-primary-light);
 }

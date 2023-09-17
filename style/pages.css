@@ -1,0 +1,8 @@
+.page {
+  border-radius: var(--border-radius-default);
+  background-color: var(--color-background);
+
+  margin: 2rem;
+  max-width: 80%;
+
+}

@@ -1,9 +1,13 @@
 body {
-  font-family: var(--font-family-primary);
+  width: 100%;
 
-  background:
-    repeating-conic-gradient(from 30deg,#0000 0 120deg,var(--bkg-color-bottom) 0 180deg)
-     calc(.5*var(--bkg-size)) calc(.5*var(--bkg-size)*0.577),
-    repeating-conic-gradient(from 30deg,var(--bkg-color-top) 0 60deg,var(--bkg-color-side) 0 120deg,var(--bkg-color-bottom) 0 180deg);
-  background-size: var(--bkg-size) calc(var(--bkg-size)*0.577);
+  font-family: var(--font-family-primary);
+  background-color: var(--color-background);
+
+
+  /*background:*/
+  /*  repeating-conic-gradient(from 30deg,#0000 0 120deg,var(--bkg-color-bottom) 0 180deg)*/
+  /*   calc(.5*var(--bkg-size)) calc(.5*var(--bkg-size)*0.577),*/
+  /*  repeating-conic-gradient(from 30deg,var(--bkg-color-top) 0 60deg,var(--bkg-color-side) 0 120deg,var(--bkg-color-bottom) 0 180deg);*/
+  /*background-size: var(--bkg-size) calc(var(--bkg-size)*0.577);*/
 }
